@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="71CEA453-622F-42B2-8356-2DADBD972299" ModuleId="Senoc.Tests" />
+  <Module PersistentId="7A6B7C97-7457-4B6F-B353-D4CAC9A18A9A" ModuleId="Senoc.Model" />
+</Modules>

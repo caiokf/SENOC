@@ -1,0 +1,6 @@
+<Configuration>
+  <NamespaceFolders>
+    <SkipFolder>71CEA453-622F-42B2-8356-2DADBD972299/d:Evaluators</SkipFolder>
+    <SkipFolder>71CEA453-622F-42B2-8356-2DADBD972299/d:Eventing</SkipFolder>
+  </NamespaceFolders>
+</Configuration>

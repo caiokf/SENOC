@@ -1,0 +1,279 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="7A6B7C97-7457-4B6F-B353-D4CAC9A18A9A/d:Primitives/f:Clock.cs" caret="734" fromTop="10" />
+      <File id="71CEA453-622F-42B2-8356-2DADBD972299/d:WorkloadModels/f:WorkloadButterflyTests.cs" caret="303" fromTop="13" />
+      <File id="71CEA453-622F-42B2-8356-2DADBD972299/d:WorkloadModels/f:WorkloadTransposeTests.cs" caret="303" fromTop="13" />
+      <File id="71CEA453-622F-42B2-8356-2DADBD972299/d:WorkloadModels/f:WorkloadShuffleTests.cs" caret="301" fromTop="13" />
+      <File id="71CEA453-622F-42B2-8356-2DADBD972299/d:WorkloadModels/f:WorkloadRandomTests.cs" caret="300" fromTop="13" />
+      <File id="71CEA453-622F-42B2-8356-2DADBD972299/d:WorkloadModels/f:WorkloadBitReversalTests.cs" caret="192" fromTop="7" />
+      <File id="7A6B7C97-7457-4B6F-B353-D4CAC9A18A9A/d:Evaluators/f:HopCountEvaluator.cs" caret="178" fromTop="6" />
+      <File id="7A6B7C97-7457-4B6F-B353-D4CAC9A18A9A/d:Evaluators/f:LatencyEvaluator.cs" caret="553" fromTop="19" />
+      <File id="71CEA453-622F-42B2-8356-2DADBD972299/d:Evaluators/f:LatencyEvaluationTests.cs" caret="2728" fromTop="76" />
+      <File id="7A6B7C97-7457-4B6F-B353-D4CAC9A18A9A/d:Evaluators/f:FlitCountEvaluator.cs" caret="396" fromTop="9" />
+      <File id="71CEA453-622F-42B2-8356-2DADBD972299/d:Routers/f:RouterReceivingClockTests.cs" caret="396" fromTop="17" />
+      <File id="71CEA453-622F-42B2-8356-2DADBD972299/d:Routers/f:RouterReceivingFlitTests.cs" caret="3120" fromTop="0" />
+      <File id="7A6B7C97-7457-4B6F-B353-D4CAC9A18A9A/d:Eventing/f:ListenerExtensions.cs" caret="180" fromTop="7" />
+      <File id="7A6B7C97-7457-4B6F-B353-D4CAC9A18A9A/d:Configuration/d:Interceptors/f:IdentifiableInitializationInterceptor.cs" caret="204" fromTop="7" />
+      <File id="7A6B7C97-7457-4B6F-B353-D4CAC9A18A9A/d:Eventing/f:Distributor.cs" caret="1024" fromTop="7" />
+      <File id="71CEA453-622F-42B2-8356-2DADBD972299/d:Eventing/f:DistributorTests.cs" caret="247" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="71CEA453-622F-42B2-8356-2DADBD972299/d:Eventing/f:DistributorTests.cs" caret="3241" fromTop="11" />
+      <File id="71CEA453-622F-42B2-8356-2DADBD972299/d:Eventing/f:DistributorTests.cs" caret="3810" fromTop="25" />
+      <File id="71CEA453-622F-42B2-8356-2DADBD972299/d:Eventing/f:DistributorTests.cs" caret="3630" fromTop="16" />
+      <File id="7A6B7C97-7457-4B6F-B353-D4CAC9A18A9A/d:Evaluators/f:LatencyEvaluator.cs" caret="108" fromTop="3" />
+      <File id="7A6B7C97-7457-4B6F-B353-D4CAC9A18A9A/d:Evaluators/f:LatencyEvaluator.cs" caret="553" fromTop="19" />
+      <File id="71CEA453-622F-42B2-8356-2DADBD972299/d:Evaluators/f:LatencyEvaluationTests.cs" caret="2728" fromTop="73" />
+      <File id="71CEA453-622F-42B2-8356-2DADBD972299/d:Eventing/f:DistributorTests.cs" caret="396" fromTop="13" />
+      <File id="71CEA453-622F-42B2-8356-2DADBD972299/d:Eventing/f:DistributorTests.cs" caret="2275" fromTop="24" />
+      <File id="71CEA453-622F-42B2-8356-2DADBD972299/d:Routers/f:RouterReceivingFlitTests.cs" caret="3120" fromTop="8" />
+      <File id="7A6B7C97-7457-4B6F-B353-D4CAC9A18A9A/d:Eventing/f:Distributor.cs" caret="1024" fromTop="7" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="ObjectFactory`0" priority="1" />
+      <Item value="IEvaluateMetrics`0" priority="0" />
+      <Item value="FlitAcceptedEvent`0" priority="0" />
+      <Item value="HopCount" priority="0" />
+      <Item value="var" priority="11" />
+      <Item value="new" priority="14" />
+      <Item value="Flit`0" priority="5" />
+      <Item value="Flit" priority="3" />
+      <Item value="public" priority="7" />
+      <Item value="private" priority="3" />
+      <Item value="System" priority="0" />
+      <Item value="Collections" priority="0" />
+      <Item value="Concurrent" priority="0" />
+      <Item value="ConcurrentDictionary" priority="0" />
+      <Item value="ConcurrentDictionary&lt;Flit,int&gt;" priority="0" />
+      <Item value="HopTracking" priority="3" />
+      <Item value="message" priority="4" />
+      <Item value="int" priority="4" />
+      <Item value="hopCount" priority="1" />
+      <Item value="value" priority="0" />
+      <Item value="if" priority="1" />
+      <Item value="return" priority="3" />
+      <Item value="hopTracking" priority="0" />
+      <Item value="for" priority="0" />
+      <Item value="toCycle" priority="0" />
+      <Item value="from" priority="0" />
+      <Item value="fromCycle" priority="0" />
+      <Item value="Distribute`0" priority="0" />
+      <Item value="IListenTo`0" priority="1" />
+      <Item value="isAvailable" priority="0" />
+      <Item value="routeIfAvailableAction" priority="0" />
+      <Item value="ChannelTests`0" priority="0" />
+      <Item value="IChannel`0" priority="0" />
+      <Item value="TestAttribute`0" priority="0" />
+      <Item value="test" priority="3" />
+      <Item value="Channel`0" priority="1" />
+      <Item value="channel" priority="6" />
+      <Item value="MockRepository`0" priority="3" />
+      <Item value="false" priority="0" />
+      <Item value="reservedFor" priority="1" />
+      <Item value="flit" priority="1" />
+      <Item value="this" priority="1" />
+      <Item value="buffer" priority="1" />
+      <Item value="inputBuffer" priority="0" />
+      <Item value="interface" priority="0" />
+      <Item value="IEat`0" priority="1" />
+      <Item value="class" priority="2" />
+      <Item value="Registry`0" priority="0" />
+      <Item value="ctor" priority="1" />
+      <Item value="Scan`0" priority="0" />
+      <Item value="SyncAsyncConvention`0" priority="0" />
+      <Item value="void" priority="1" />
+      <Item value="SyncCook`0" priority="3" />
+      <Item value="syncCook" priority="0" />
+      <Item value="SyncEater`0" priority="1" />
+      <Item value="CookingRegistry`0" priority="0" />
+      <Item value="type" priority="2" />
+      <Item value="registry" priority="0" />
+      <Item value="typeof" priority="0" />
+      <Item value="Type`0" priority="0" />
+      <Item value="IBuffer`0" priority="0" />
+      <Item value="items" priority="0" />
+      <Item value="ConcurrentQueue&lt;Flit&gt;" priority="0" />
+      <Item value="Assert`0" priority="0" />
+      <Item value="testfail" priority="14" />
+      <Item value="IRoutable`0" priority="0" />
+      <Item value="mockA" priority="5" />
+      <Item value="Clock`0" priority="0" />
+      <Item value="ClockEvent`0" priority="0" />
+      <Item value="ClockCycle" priority="0" />
+      <Item value="mockRepository" priority="4" />
+      <Item value="clockedEvent1" priority="2" />
+      <Item value="ClockedEvent`0" priority="0" />
+      <Item value="Expect`0" priority="0" />
+      <Item value="Console`0" priority="0" />
+      <Item value="listener" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="Thread`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@StructureMap.ObjectFactory">
+      <Item value="Configure`0" priority="0" />
+      <Item value="GetInstance`1" priority="0" />
+      <Item value="Initialize`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.ConfigurationExpression">
+      <Item value="AddRegistry`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Senoc.Domain.Model.IListenTo`1">
+      <Item value="All`0" priority="2" />
+      <Item value="ThatSatisfy`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Concurrent.ConcurrentDictionary`2">
+      <Item value="ContainsKey`0" priority="0" />
+      <Item value="Keys" priority="0" />
+      <Item value="GetOrAdd`0" priority="0" />
+      <Item value="AddOrUpdate`0" priority="0" />
+      <Item value="Average`1" priority="1" />
+      <Item value="Aggregate`3" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Senoc.Domain.Model.FlitAcceptedEvent">
+      <Item value="Flit" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToList`1" priority="0" />
+      <Item value="AsParallel`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Senoc.Tests.Channel">
+      <Item value="IsFull`0" priority="1" />
+      <Item value="IsReservedForOtherThan`0" priority="2" />
+      <Item value="Reserve`0" priority="1" />
+      <Item value="inputBuffer" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SharpTestsEx.IBooleanBeConstraints">
+      <Item value="False`0" priority="3" />
+      <Item value="True`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Boolean">
+      <Item value="Should`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SharpTestsEx.IBooleanConstraints">
+      <Item value="Be" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.MockRepository">
+      <Item value="GenerateStub`0" priority="0" />
+      <Item value="GenerateMock`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Senoc.Tests.IBuffer">
+      <Item value="Equals`0" priority="0" />
+      <Item value="Expect`2" priority="0" />
+      <Item value="IsFull`0" priority="0" />
+      <Item value="VerifyAllExpectations`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IMethodOptions`1">
+      <Item value="Return`0" priority="1" />
+      <Item value="Repeat" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Graph.IAssemblyScanner">
+      <Item value="TheCallingAssembly`0" priority="0" />
+      <Item value="With`0" priority="0" />
+      <Item value="Convention`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Senoc.Tests.SyncCook">
+      <Item value="Eater" priority="0" />
+      <Item value="OtherEater" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SharpTestsEx.IClassBeConstraints">
+      <Item value="OfType`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.IInitializationExpression">
+      <Item value="AddRegistry`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="StartsWith`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Configuration.DSL.Registry">
+      <Item value="For`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1">
+      <Item value="Use`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Pipeline.ConfiguredInstance">
+      <Item value="SetterDependency`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Type">
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Pipeline.SmartInstance`1">
+      <Item value="Setter`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Pipeline.SmartInstance`1+DependencyExpression`1">
+      <Item value="Is`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Concurrent.ConcurrentQueue`1">
+      <Item value="AsEnumerable`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="Fail`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Senoc.Domain.Model.IRoutable">
+      <Item value="VerifyAllExpectations`0" priority="0" />
+      <Item value="Expect`2" priority="1" />
+      <Item value="AssertWasCalled`1" priority="0" />
+      <Item value="Handle`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.MockRepository">
+      <Item value="StrictMock`1" priority="1" />
+      <Item value="Ordered`0" priority="0" />
+      <Item value="StrictMultiMock`1" priority="0" />
+      <Item value="ReplayAll`0" priority="1" />
+      <Item value="VerifyAll`0" priority="0" />
+      <Item value="Unordered`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.Expect">
+      <Item value="Call`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Senoc.Domain.Model.IListenTo`1+All">
+      <Item value="Handle`0" priority="1" />
+      <Item value="Expect`2" priority="0" />
+      <Item value="AssertWasCalled`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="Sleep`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Senoc.Domain.Model.IListenTo">
+      <Item value="GetHashCode`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Senoc.Domain.Model.IEvent">
+      <Item value="ClockCycle" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Senoc.Domain.Model.IListenTo`1+ThatSatisfy">
+      <Item value="SatisfiedBy`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IRepeat`1">
+      <Item value="Never`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7A6B7C97-7457-4B6F-B353-D4CAC9A18A9A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Senoc.Model</RootNamespace>
+    <AssemblyName>Senoc.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="StructureMap">
+      <HintPath>..\..\libs\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration\DomainRegistry.cs" />
+    <Compile Include="Configuration\Interceptors\ClockedElementInterceptor.cs" />
+    <Compile Include="Configuration\Interceptors\DistribuitionListenerInterceptor.cs" />
+    <Compile Include="Configuration\Interceptors\IdentifiableInitializationInterceptor.cs" />
+    <Compile Include="Configuration\RegistrationConventions\EvaluationMetricsRegistrationConvention.cs" />
+    <Compile Include="Configuration\RegistrationConventions\InterceptorsRegistrationConvention.cs" />
+    <Compile Include="Evaluators\FlitCountEvaluator.cs" />
+    <Compile Include="Evaluators\HopCountEvaluator.cs" />
+    <Compile Include="Evaluators\IEvaluateMetrics.cs" />
+    <Compile Include="Evaluators\LatencyEvaluator.cs" />
+    <Compile Include="Eventing\Distributor.cs" />
+    <Compile Include="Events\ClockedEvent.cs" />
+    <Compile Include="Events\DoneSimulatingEvent.cs" />
+    <Compile Include="Events\FlitEvent.cs" />
+    <Compile Include="Events\IDirectedEvent.cs" />
+    <Compile Include="Events\SimulationStartedEvent.cs" />
+    <Compile Include="Eventing\Flit.cs" />
+    <Compile Include="Eventing\IDistributor.cs" />
+    <Compile Include="Eventing\IEvent.cs" />
+    <Compile Include="Eventing\IListenTo.cs" />
+    <Compile Include="Eventing\ListenerExtensions.cs" />
+    <Compile Include="Primitives\Clock.cs" />
+    <Compile Include="Primitives\ClockEvent.cs" />
+    <Compile Include="Primitives\IClock.cs" />
+    <Compile Include="Primitives\IClockedElement.cs" />
+    <Compile Include="Primitives\IIdentifiable.cs" />
+    <Compile Include="Primitives\IRoutable.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Routers\Channel.cs" />
+    <Compile Include="Routers\IBuffer.cs" />
+    <Compile Include="Routers\IChannel.cs" />
+    <Compile Include="Routers\InfinitBuffer.cs" />
+    <Compile Include="RoutingAlgorithms\IRoutingAlgorithm.cs" />
+    <Compile Include="Routers\ISwitchingMatrix.cs" />
+    <Compile Include="Routers\QueueBuffer.cs" />
+    <Compile Include="Routers\Router.cs" />
+    <Compile Include="Routers\RoutingAvailabilityExpression.cs" />
+    <Compile Include="Routers\SwitchingMatrix.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
